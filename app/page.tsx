@@ -604,7 +604,7 @@ export default function Home() {
       </motion.nav>
 
       {/* Hero Section */}
-      <section className="relative flex flex-col items-center justify-center min-h-screen pt-16 px-4 text-center overflow-hidden">
+      <section className="relative flex flex-col items-center justify-center min-h-screen pt-16 px-4 text-center overflow-hidden" aria-label="Hero section with main value proposition">
 
         <motion.div
           initial={{ scale: 0, rotate: -180 }}
@@ -726,7 +726,7 @@ export default function Home() {
       </section>
 
       {/* Target Industries Section */}
-      <section className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
+      <section className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8" aria-label="Target industries and use cases">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -768,7 +768,7 @@ export default function Home() {
       </section>
 
       {/* Key Features */}
-      <section className="max-w-7xl mx-auto py-24 px-4 sm:px-6 lg:px-8" id="features">
+      <section className="max-w-7xl mx-auto py-24 px-4 sm:px-6 lg:px-8" id="features" aria-label="Key features and benefits">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -818,7 +818,7 @@ export default function Home() {
       </section>
 
       {/* Pricing Section */}
-      <section className="max-w-7xl mx-auto py-24 px-4 sm:px-6 lg:px-8" id="pricing">
+      <section className="max-w-7xl mx-auto py-24 px-4 sm:px-6 lg:px-8" id="pricing" aria-label="Pricing plans and options">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}

@@ -1,0 +1,38 @@
+User-agent: *
+Allow: /
+
+# Allow all search engines to crawl the entire site
+Allow: /api/
+
+# Block access to private files and folders
+Disallow: /private/
+Disallow: /*.json$
+Disallow: /admin/
+Disallow: /_next/
+Disallow: /api/contact
+
+# Allow important files
+Allow: /favicon.ico
+Allow: /logo.png
+Allow: /image.png
+Allow: /og-image.png
+Allow: /manifest.json
+
+# Sitemap location
+Sitemap: https://www.frameflow.online/sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
+
+# Specific rules for major search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 1 
