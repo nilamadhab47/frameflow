@@ -84,7 +84,7 @@ export const metadata: Metadata = {
     // Google: Get from https://search.google.com/search-console/ -> Add Property -> HTML tag method
     // Bing: Get from https://www.bing.com/webmasters/ -> Add site -> Meta tag method  
     // Yandex: Get from https://webmaster.yandex.com/ -> Add site -> Meta tag method
-    google: "76jcCh5x_xWRTJHWq0vYLBJ2iArlXQr6DAkIldc",
+    google: "76jcCh5x_xWRTJHWq0vYLBJ2iArlXQr6DAklIdd8JGs",
     other: {
       "msvalidate.01": "your-bing-verification-code-here",
       "yandex-verification": "your-yandex-verification-code-here",
